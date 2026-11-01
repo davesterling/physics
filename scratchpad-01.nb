@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       154,          7]
-NotebookDataLength[      3726,        107]
-NotebookOptionsPosition[      3250,         90]
-NotebookOutlinePosition[      3642,        106]
-CellTagsIndexPosition[      3599,        103]
+NotebookDataLength[      5905,        173]
+NotebookOptionsPosition[      5207,        152]
+NotebookOutlinePosition[      5599,        168]
+CellTagsIndexPosition[      5556,        165]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -86,6 +86,68 @@ Cell[BoxData[
    4.00249912658293*^9}},
  CellLabel->
   "Out[266]=",ExpressionUUID->"61d17c7c-3b43-40ca-bb0f-445e6d378833"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{
+   RowBox[{
+    SubscriptBox[
+     StyleBox["k",
+      FontSlant->"Italic"], "e"], " ", "=", " ", 
+    RowBox[{"(", 
+     FractionBox["1", 
+      RowBox[{"4", "\[Pi]", " ", 
+       SubscriptBox["\[Epsilon]", "0"]}]], ")"}]}], ";"}], " ", 
+  RowBox[{"(*", 
+   RowBox[{"Coulombs", " ", "Constant"}], "*)"}]}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{
+    SubscriptBox["q", "1"], " ", "=", " ", "1.60205*^-19"}], ";"}], " ", 
+  RowBox[{"(*", 
+   RowBox[{"Electron", " ", "Charge"}], "*)"}]}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   SubscriptBox["q", "2"], " ", "=", " ", "1.60205*^-19"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"r", " ", "=", " ", "5.29*^-11"}], ";"}], " ", 
+  RowBox[{"(*", 
+   RowBox[{"Bohr", " ", "Radius", " ", "in", " ", "meters"}], "*)"}], 
+  "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"coulombslaw", " ", "=", " ", 
+   RowBox[{"(", 
+    RowBox[{"f", " ", "==", " ", 
+     RowBox[{
+      SubscriptBox[
+       StyleBox["k",
+        FontSlant->"Italic"], "e"], 
+      FractionBox[
+       RowBox[{
+        SubscriptBox["q", "1"], " ", 
+        SubscriptBox["q", "2"]}], 
+       SuperscriptBox["r", "2"]]}]}], ")"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{"Solve", "[", 
+  RowBox[{"coulombslaw", ",", " ", "f"}], "]"}]}], "Input",
+ CellChangeTimes->{{4.002500343383431*^9, 4.0025007873742323`*^9}, {
+  4.0025008802827053`*^9, 4.002500968082349*^9}, {4.0025010533657513`*^9, 
+  4.0025010854540358`*^9}},
+ CellLabel->
+  "In[324]:=",ExpressionUUID->"b983bfb1-cb8c-446c-9bd1-d26398937a4e"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"{", 
+   RowBox[{"f", "\[Rule]", "8.242941058383262`*^-8"}], "}"}], "}"}]], "Output",\
+
+ CellChangeTimes->{
+  4.0025009816418543`*^9, {4.002501067531588*^9, 4.002501086829767*^9}},
+ CellLabel->
+  "Out[329]=",ExpressionUUID->"4afb73ef-dc34-4884-986e-a9c6b1be86ac"]
 }, Open  ]]
 },
 WindowSize->{Full, Full},
@@ -108,10 +170,12 @@ Notebook[{
 Cell[CellGroupData[{
 Cell[576, 22, 1909, 46, 252, "Input",ExpressionUUID->"73555596-459a-4b26-9fe9-921a563dfef2"],
 Cell[2488, 70, 746, 17, 35, "Output",ExpressionUUID->"61d17c7c-3b43-40ca-bb0f-445e6d378833"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3271, 92, 1615, 47, 185, "Input",ExpressionUUID->"b983bfb1-cb8c-446c-9bd1-d26398937a4e"],
+Cell[4889, 141, 302, 8, 35, "Output",ExpressionUUID->"4afb73ef-dc34-4884-986e-a9c6b1be86ac"]
 }, Open  ]]
 }
 ]
 *)
-
-(* End of internal cache information *)
 
